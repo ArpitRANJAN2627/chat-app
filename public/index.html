@@ -11,7 +11,7 @@
     <link href="./app.css">
 </head>
 <body>
-    
+     
     <section  class="w-50 border p-3 mx-auto mt-5" id="login-section">
         <h1>Login</h1>
             <label class="form-label" for="username">Enter your name</label>
@@ -21,7 +21,9 @@
     <section  class="w-50 border p-3 mx-auto mt-5 bg-dark   " id="chat-section">
     <h1 class="text-info ">Chit Chat</h1>
     <h5 class="text-lg-center text-white">ChatRoom</h5>
-   
+   <div class="text-end my-2 p-1">
+    <button class="btn btn-sm btn-danger" id="leave-btn">Leave Room</button>
+   </div>
     <ul class="list-unstyled border bg-warning-subtle  p-2 text-center overflow-y-scroll " style="height: 200px;" id="chat-list">
     </ul>
     <textarea class="form-control my-2" id="chat-inp" rows="3" ></textarea>

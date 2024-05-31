@@ -6,11 +6,17 @@ const loginBtn=document.getElementById('login-btn')
 const loginInp =document.getElementById('login-inp')
 const chatSection=document.getElementById('chat-section')
 const loginSection=document.getElementById('login-section')
-
+const leaveBtn=document.getElementById('leave-btn')
 
 
 
 chatSection.classList.add('class','d-none')
+
+
+leaveBtn.addEventListener('click',()=>{
+    loginSection.classList.remove('d-none');
+    chatSection.classList.add('d-none')
+})
 
 
 chatbtn.addEventListener('click',()=>{
